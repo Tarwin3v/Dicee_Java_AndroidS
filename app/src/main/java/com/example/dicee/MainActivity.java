@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         final int[] diceArray = {R.drawable.dice1,
                             R.drawable.dice2,
                             R.drawable.dice3,
+                            R.drawable.dice5,
                             R.drawable.dice4,
                             R.drawable.dice6};
 
@@ -44,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
                 rightDice.setImageResource((diceArray[number]));
 
                 Log.d("Dicee", "Button has been pressed!");
-                Log.d("Dicee","The random number is :" + number);
             }
         });
 
